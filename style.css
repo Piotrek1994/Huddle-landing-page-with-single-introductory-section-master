@@ -5,10 +5,19 @@
 }
 
 body {
-	
+	display: flex;
+    flex-direction: row;
 	height: 100vh;
     background-color: hsl(257, 40%, 49%);
     background-image: url('/images/bg-desktop.svg');
+}
+
+
+.left-side {
+    width: 50%;
+}
+.right-side {
+    width: 50%;
 }
 
 footer {
