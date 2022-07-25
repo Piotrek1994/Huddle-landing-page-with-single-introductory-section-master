@@ -105,3 +105,55 @@ footer {
 	transform: translateX(-50%);
 	bottom: 0;
 }
+
+
+@media (max-width: 375px){
+    body {
+        display: flex;
+        flex-direction: column;
+        padding: 1rem;
+    }
+
+
+
+    .left-side {
+        height: 50%;
+       
+    }
+
+    .mockup-template{
+        width: 20rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .logo-icon {
+        width: 9rem;
+        
+    }
+
+    .right-side {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        height: 50%;
+        padding: 0;
+        
+    }
+    h1 {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    .description {
+        text-align: center;
+        font-size: 1.1rem;
+    }
+    .btn {
+        width: 13rem;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    
+}
